@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Header from './components/header';
+import GreenArrowLabs from './components/green-arrow-labs/green-arrow-labs';
 import Knowledge from './components/knowledge/knowledge';
 import Pixbit from './components/pixbit/pixbit';
 import GivingBack from './components/giving-back/giving-back';
@@ -18,13 +19,14 @@ class App extends Component {
             <Header />
 
             <div className="clearfix mt4">
-              {/* <a href="#green-arrow-labs"><button className="btn caps bold">Current Job</button></a> */}
-              <a href="#knowledge"><button className="btn caps bold">Skills</button></a>
-              <a href="#pixbit"><button className="btn caps bold ml1">Prev Startup Job</button></a>
-              <a href="#giving-back"><button className="btn caps bold ml1">Giving Back</button></a>
-              <a href="#before-tech"><button className="btn caps bold ml1">Before Tech</button></a>
+              <a href="#green-arrow-labs"><button className="btn caps bold mb1">Current Job</button></a>
+              <a href="#knowledge"><button className="btn caps bold ml1 mb1">Skills</button></a>
+              <a href="#pixbit"><button className="btn caps bold ml1 mb1">Prev Startup Job</button></a>
+              <a href="#giving-back"><button className="btn caps bold ml1 mb1">Giving Back</button></a>
+              <a href="#before-tech"><button className="btn caps bold ml1 mb1">Before Tech</button></a>
             </div>
 
+            <GreenArrowLabs />
             <Knowledge />
             <Pixbit />
             <GivingBack />
