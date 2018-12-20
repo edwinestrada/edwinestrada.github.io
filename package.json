@@ -8,6 +8,8 @@
     "react-scripts": "2.1.1"
   },
   "scripts": {
+    "build-docker": "docker build -t edwinestrada-dot-com .",
+    "start-in-docker": "docker run --name edwinestrada-dot-com -p 80:3000 --rm edwinestrada-dot-com",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
