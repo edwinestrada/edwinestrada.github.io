@@ -10,6 +10,8 @@
   "scripts": {
     "build-docker": "docker build -t edwinestrada-dot-com .",
     "start-in-docker": "docker run --name edwinestrada-dot-com -p 80:3000 --rm edwinestrada-dot-com",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -b master -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -23,5 +25,9 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "devDependencies": {
+    "gh-pages": "^2.0.1"
+  },
+  "homepage": "http://edwinestrada.github.io"
 }
