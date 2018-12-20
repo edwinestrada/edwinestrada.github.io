@@ -1,32 +1,94 @@
-.App {
-  text-align: center;
-}
+#bad-hombre ::selection {
+  background: #0067C6;
+  /* WebKit/Blink Browsers */
+  color: white; }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-}
+#bad-hombre ::-moz-selection {
+  background: #0067C6;
+  /* Gecko Browsers */
+  color: white; }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+#dale-lari-section ::selection {
+  background: #724A9E;
+  /* WebKit/Blink Browsers */
+  color: white; }
+
+#dale-lari-section ::-moz-selection {
+  background: #724A9E;
+  /* Gecko Browsers */
+  color: white; }
+
+#pendo-letter ::selection {
+  background: #ec2059;
+  /* WebKit/Blink Browsers */
+  color: white; }
+
+#pendo-letter ::-moz-selection {
+  background: #ec2059;
+  /* Gecko Browsers */
+  color: white; }
+
+#nimble-letter ::selection {
+  background: #2ADF97;
+  /* WebKit/Blink Browsers */
+  color: white; }
+
+#nimble-letter ::-moz-selection {
+  background: #2ADF97;
+  /* Gecko Browsers */
+  color: white; }
+
+@media (min-width: 64em) {
+  .hide-on-desktop {
+    display: none; } }
+
+@media (max-width: 64em) {
+  .hide-on-mobile {
+    display: none; } }
+
+#nombre-grande, .section-title {
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  font-weight: 800;
+  font-size: 132px;
+  margin-left: -5px; }
+
+.section-title {
+  font-size: 66px; }
+
+.pendo-pink {
+  color: #ec2059; }
+
+.nimble-green {
+  color: #2ADF97; }
+
+p, li, button,
+.h1, .h2, .btn {
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif; }
+
+ul li {
+  margin-bottom: 5px;
+  line-height: 1.5; }
+
+p {
+  font-weight: 400;
+  font-size: 18px; }
+
+button, .btn {
+  border-color: black;
   color: white;
-}
+  background-color: black;
+  border: 2px solid black;
+  padding: 13px 20px;
+  cursor: pointer;
+  font-size: 16px;
+  letter-spacing: normal; }
+  button:hover, .btn:hover {
+    background-color: #515461;
+    border: 2px solid #515461; }
+  button.disabled, .btn.disabled {
+    cursor: inherit;
+    background-color: white;
+    color: black; }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+a {
+  text-decoration: none; }

@@ -1,0 +1,123 @@
+@mixin proxima { font-family: proxima-nova, Arial, sans-serif; }
+@mixin sf { font-family: -apple-system, BlinkMacSystemFont, sans-serif; }
+
+$nimble-green: #2ADF97;
+$pendo-pink: #ec2059;
+$nicaraguan-blue: #0067C6;
+$dale-lari-purple: #724A9E;
+
+#bad-hombre {
+  ::selection {
+    background: $nicaraguan-blue; /* WebKit/Blink Browsers */
+    color: white;
+  }
+  ::-moz-selection {
+    background: $nicaraguan-blue; /* Gecko Browsers */
+    color: white;
+  }
+}
+
+#dale-lari-section {
+  ::selection {
+    background: $dale-lari-purple; /* WebKit/Blink Browsers */
+    color: white;
+  }
+  ::-moz-selection {
+    background: $dale-lari-purple; /* Gecko Browsers */
+    color: white;
+  }
+}
+
+#pendo-letter {
+  ::selection {
+    background: $pendo-pink; /* WebKit/Blink Browsers */
+    color: white;
+  }
+  ::-moz-selection {
+    background: $pendo-pink; /* Gecko Browsers */
+    color: white;
+  }
+}
+
+#nimble-letter {
+  ::selection {
+    background: $nimble-green; /* WebKit/Blink Browsers */
+    color: white;
+  }
+  ::-moz-selection {
+    background: $nimble-green; /* Gecko Browsers */
+    color: white;
+  }
+}
+
+@media (min-width: 64em) {
+  .hide-on-desktop {
+    display: none;
+  }
+}
+@media (max-width: 64em) {
+  .hide-on-mobile {
+    display: none;
+  }
+}
+
+#nombre-grande, .section-title {
+  @include sf;
+  font-weight: 800;
+  font-size: 132px;
+  margin-left: -5px;
+}
+
+.section-title {
+  font-size: 66px;
+}
+
+.pendo-pink {
+  color: $pendo-pink;
+}
+
+.nimble-green {
+  color: $nimble-green;
+}
+
+p, li, button,
+.h1, .h2, .btn {
+  @include sf;
+}
+
+ul li {
+  margin-bottom: 5px;
+  line-height: 1.5;
+}
+
+p {
+  font-weight: 400;
+  font-size: 18px;
+}
+
+button, .btn {
+  border-color: black;
+  color: white;
+  background-color: black;
+  border: 2px solid black;
+  padding: 13px 20px;
+  cursor: pointer;
+  font-size: 16px;
+  letter-spacing: normal;
+
+  &:hover {
+    background-color: #515461;
+     border: 2px solid #515461;
+    // box-shadow: 0 0 0 1px black;
+  }
+
+  &.disabled {
+    cursor: inherit;
+    background-color: white;
+    color: black;
+  }
+}
+
+a {
+  text-decoration: none;
+}
