@@ -25,8 +25,8 @@ class Header extends Component {
         <div className="clearfix">
           {
             this.state.faceHover ?
-            <img onMouseEnter={this.handleEnterFace} onMouseLeave={this.handleExitFace} id="mi-cabeza-de-verdad" className="col sm-col-2 md-col-3 lg-col-1" src={edwinFace} /> :
-            <img onMouseEnter={this.handleEnterFace} onMouseLeave={this.handleExitFace} id="mi-cabeza" className="col sm-col-2 md-col-3 lg-col-1" src={manFace} />
+            <img onMouseEnter={this.handleEnterFace} onMouseLeave={this.handleExitFace} alt="edwin's face" id="mi-cabeza-de-verdad" className="col sm-col-2 md-col-3 lg-col-1" src={edwinFace} /> :
+            <img onMouseEnter={this.handleEnterFace} onMouseLeave={this.handleExitFace} alt="cartoon face" id="mi-cabeza" className="col sm-col-2 md-col-3 lg-col-1" src={manFace} />
           }
         </div>
       </div>
