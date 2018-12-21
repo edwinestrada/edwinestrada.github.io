@@ -14,13 +14,14 @@ class Header extends Component {
     return (
       <div>
         <p id="nombre-grande" className="m0 mt4">Hola</p>
-        <p>I'm Edwin.</p>
+        {/* <p>I'm Edwin.</p> */}
         <div className="clearfix py3 hide-on-desktop">
           <p>Just a bad hombre from Raleigh, NC.</p>
         </div>
         <div className="clearfix py3 hide-on-mobile">
-          <p className="col col-4">Just a bad hombre.</p>
-          <p className="col col-8 px3">Based in Raleigh, NC.</p>
+          {/* <p className="col col-4">Just a bad hombre.</p> */}
+          <p className="col col-4">I'm Edwin.</p>
+          {/* <p className="col col-8 px3">Based in Raleigh, NC.</p> */}
         </div>
         <div className="clearfix">
           {
