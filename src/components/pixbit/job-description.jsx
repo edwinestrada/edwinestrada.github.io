@@ -2,9 +2,9 @@ import React from 'react';
 
 const JobDescription = () => (
   <div>
-    <p className="section-title m0 mt4">What I used to do at Pixbit</p>
+    <p className="section-title m0 mt4">What I used to do</p>
     <div className="clearfix py3">
-      <p className="bold">My Roles and Responsibilities</p><hr/>
+      <p className="bold">My roles and responsibilities at Pixbit</p><hr/>
       <p>Co-founded a startup called Pixbit and grew it with love for 5 years.</p>
 
       <a href="http://www.thinkpixbit.com" target="_blank">

@@ -1,13 +1,11 @@
 import React from 'react';
 import JobDescription from './job-description';
-// import LinkProject from './project-link';
-// import CDMSProject from './project-cdms';
+import LinkProject from './project-link';
 
 const History = () => (
   <div id="green-arrow-labs">
     <JobDescription />
-    {/* <LinkProject /> */}
-    {/* <CDMSProject /> */}
+    <LinkProject />
   </div>
 );
 

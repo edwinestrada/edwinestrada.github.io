@@ -148,14 +148,14 @@ const Knowledge = () => (
     <div className="clearfix py3">
       <p className="bold">What I constantly curious about</p><hr/>
       <ul className="list-reset">
+        <li>How to actually implement blockchain tech into supply chains</li>
         <li>Unity3d powered experiences like Monument Valley</li>
         <li>Docker (this site is deployed in a container)</li>
         <li>Digital experiences in autonomous cars</li>
         <li>Raspberry Pi's + Arduino</li>
-        <li>Three-way data binding</li>
+        <li>WebVR with A-frame</li>
         <li>Graph Databases</li>
         <li>Virtual Reality</li>
-        <li>WebVR</li>
       </ul>
     </div>
 
