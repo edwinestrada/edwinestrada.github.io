@@ -28,11 +28,16 @@ const JobDescription = () => (
 
       <p className="bold mt4">Team members that I help manage day-to-day</p><hr/>
       <ul className="list-reset mt2">
-        <li>9 Overseas Developers</li>
+        <li>3 Full-time Backend Java Developers</li>
+        <li>1 Full-time Backend Node Developer</li>
+        <li>2 Full-time Frontend Developers</li>
+        <li>1 Full-time Neo4j Developer</li>
+        <li>1 Full-time Dev Team Lead</li>
+        <li>1 Full-time QA Developer</li>
         <li>3 Devops Consultants</li>
         <li>1 Customer Success</li>
-        <li>2 Local Developers</li>
-        <li>1 Designer</li>
+        <li>1 Full-time Designer</li>
+        <li>1 Part-time Intern</li>
       </ul>
 
     </div>
