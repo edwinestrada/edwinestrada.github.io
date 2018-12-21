@@ -7,7 +7,7 @@ const JobDescription = () => (
       <p className="bold">My roles and responsibilities at Pixbit</p><hr/>
       <p>Co-founded a startup called Pixbit and grew it with love for 5 years.</p>
 
-      <a href="http://www.thinkpixbit.com" target="_blank">
+      <a href="http://www.thinkpixbit.com" target="_blank" rel="noopener noreferrer">
         <button className="btn caps bold">See Company Site</button>
       </a>
 

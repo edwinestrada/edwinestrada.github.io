@@ -7,7 +7,7 @@ const JobDescription = () => (
       <p className="bold">My roles and responsibilities at Green Arrow Labs</p><hr/>
       <p>As a project manager, I work hard everyday to act as the superconductor between all of the software-related teams of the company.</p>
 
-      <a href="https://www.greenarrowlabs.com" target="_blank">
+      <a href="https://www.greenarrowlabs.com" target="_blank" rel="noopener noreferrer">
         <button className="btn caps bold">See Company Site</button>
       </a>
 

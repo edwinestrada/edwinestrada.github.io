@@ -5,7 +5,7 @@ const Project = () => (
     <p className="bold">Client Project - Cisco's Customer Acquisition Tool</p><hr/>
     <p>Creating an interactive customer assessment tool to help Cisco funnel security leads.</p>
 
-    <a href="http://www.thinkpixbit.com/portfolio/cisco-security-solutions" target="_blank">
+    <a href="http://www.thinkpixbit.com/portfolio/cisco-security-solutions" target="_blank" rel="noopener noreferrer">
       <button className="btn caps bold">See Project</button>
     </a>
     <button className="btn caps bold disabled ml1">Ask me about it</button>

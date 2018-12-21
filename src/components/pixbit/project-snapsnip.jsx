@@ -5,13 +5,13 @@ const Project = () => (
     <p className="bold">Client Project - SnapSnip Salon Platform</p><hr/>
     <p>A hair consultation tool that brings the principles of IT support ticket systems to the salon industry. Multiple salons all over the country are still using this platform everyday.</p>
 
-    <a href="http://www.thinkpixbit.com/portfolio/snapsnip-product-creation" target="_blank">
+    <a href="http://www.thinkpixbit.com/portfolio/snapsnip-product-creation" target="_blank" rel="noopener noreferrer">
       <button className="btn caps bold">See Project</button>
     </a>
-    {/* <a href="http://snapsnipapp.com" target="_blank">
+    {/* <a href="http://snapsnipapp.com" target="_blank" rel="noopener noreferrer">
       <button className="btn caps bold">See Landing Page</button>
     </a> */}
-    <a href="https://s3.amazonaws.com/thinkpixbit/public/snapsnip-ecosystem.png" target="_blank">
+    <a href="https://s3.amazonaws.com/thinkpixbit/public/snapsnip-ecosystem.png" target="_blank" rel="noopener noreferrer">
       <button className="btn caps bold ml1">See Ecosystem</button>
     </a>
 

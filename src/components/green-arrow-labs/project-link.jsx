@@ -8,7 +8,7 @@ const Project = () => (
     <p>Provides a common platform for collaboration between the world's largest footwear/apparel brands, their suppliers, and testing laboratories as they manufacture, test, and import along the entire supply chain.</p>
     <p>Below are some of the main things I do for the product team.</p>
 
-    <a href="https://www.greenarrowlabs.com/Link-Services-Software" target="_blank">
+    <a href="https://www.greenarrowlabs.com/Link-Services-Software" target="_blank" rel="noopener noreferrer">
       <button className="btn caps bold">See Project</button>
     </a>
 

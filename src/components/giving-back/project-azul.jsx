@@ -4,7 +4,7 @@ const Project = () => (
   <div className="clearfix py3">
     <p className="bold">Non-profit Project - Azul</p><hr/>
     <p>Taught technology-focused courses and managed initiatives for our communities.</p>
-    <a href="http://react.thinkpixbit.com" target="_blank">
+    <a href="http://react.thinkpixbit.com" target="_blank" rel="noopener noreferrer">
       <button className="btn caps bold">See React Course</button>
     </a>
     <button className="btn caps bold disabled ml1">Ask me about it</button>
