@@ -52,12 +52,12 @@ $dale-lari-purple: #724A9E;
 
 @media (min-width: 64em) {
   .hide-on-desktop {
-    display: none;
+    display: none !important;
   }
 }
 @media (max-width: 64em) {
   .hide-on-mobile {
-    display: none;
+    display: none !important;
   }
 }
 
