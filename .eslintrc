@@ -1,0 +1,9 @@
+{
+  "extends": "react-app",
+  "rules": {
+    "comma-dangle": ["error", "always-multiline"],
+    "semi": ["error", "always"],
+    "object-curly-spacing": ["error", "always"],
+    "no-trailing-spaces": ["error"]
+  }
+}
