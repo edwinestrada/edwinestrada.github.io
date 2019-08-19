@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import Header from './components/header';
+import Header from './components/header/header';
+import Snapsnip from './components/snapsnip/snapsnip';
 import GreenArrowLabs from './components/green-arrow-labs/green-arrow-labs';
 import Knowledge from './components/knowledge/knowledge';
 import Pixbit from './components/pixbit/pixbit';
@@ -17,15 +18,7 @@ class App extends Component {
           <div className="max-width-4 mx-auto mb2">
 
             <Header />
-
-            <div className="clearfix mt4">
-              <a href="#green-arrow-labs"><button className="btn caps bold mb1">Current Job</button></a>
-              <a href="#knowledge"><button className="btn caps bold ml1 mb1">Skills</button></a>
-              <a href="#pixbit"><button className="btn caps bold ml1 mb1">Prev Startup Job</button></a>
-              <a href="#giving-back"><button className="btn caps bold ml1 mb1">Giving Back</button></a>
-              <a href="#before-tech"><button className="btn caps bold ml1 mb1">Before Tech</button></a>
-            </div>
-
+            <Snapsnip />
             <GreenArrowLabs />
             <Knowledge />
             <Pixbit />

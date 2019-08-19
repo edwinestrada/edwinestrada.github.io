@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
-import edwinFace from '../assets/edwin-face.png';
-import manFace from '../assets/man-face.png';
+import edwinFace from '../../assets/edwin-face.png';
+import manFace from '../../assets/man-face.png';
+import NavBar from './navbar';
 
 class Header extends Component {
   state = {
@@ -15,7 +16,7 @@ class Header extends Component {
     return (<>
       <p id="nombre-grande" className="m0 mt4">Hola</p>
 
-      <ul class="list-reset">
+      <ul className="list-reset">
         <li>I'm Edwin,</li>
         <li>startup tech founder</li>
         <li>turned product manager</li>
@@ -23,8 +24,10 @@ class Header extends Component {
       </ul>
 
       <div className="clearfix">
-        <img onMouseEnter={this.handleEnterFace} onMouseLeave={this.handleExitFace} alt="face" className="col sm-col-2 md-col-3 lg-col-1" src={this.getFace()} />
+        <img id="edwins-face" onMouseEnter={this.handleEnterFace} onMouseLeave={this.handleExitFace} alt="face" className="col sm-col-2 md-col-3 lg-col-1" src={this.getFace()} />
       </div>
+
+      <NavBar />
     </>);
   }
 }
