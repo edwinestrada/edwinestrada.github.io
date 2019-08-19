@@ -40,11 +40,11 @@
 
 @media (min-width: 64em) {
   .hide-on-desktop {
-    display: none; } }
+    display: none !important; } }
 
 @media (max-width: 64em) {
   .hide-on-mobile {
-    display: none; } }
+    display: none !important; } }
 
 #nombre-grande, .section-title {
   font-family: -apple-system, BlinkMacSystemFont, sans-serif;
@@ -92,3 +92,12 @@ button, .btn {
 
 a {
   text-decoration: none; }
+
+@media print {
+  #edwins-face,
+  #navbar,
+  .btn {
+    display: none !important; }
+  #nombre-grande,
+  .section-title {
+    font-size: 32px; } }

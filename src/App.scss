@@ -121,3 +121,17 @@ button, .btn {
 a {
   text-decoration: none;
 }
+
+@media print {
+  #edwins-face,
+  #navbar,
+  .btn
+  {
+    display: none !important;
+  }
+  #nombre-grande,
+  .section-title
+  {
+    font-size: 32px;
+  }
+}
