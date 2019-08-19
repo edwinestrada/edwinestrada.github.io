@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Header from './components/header/header';
+import Experience from './components/experience/experience';
 import Snapsnip from './components/snapsnip/snapsnip';
 import GreenArrowLabs from './components/green-arrow-labs/green-arrow-labs';
 import Knowledge from './components/knowledge/knowledge';
@@ -18,6 +19,7 @@ class App extends Component {
           <div className="max-width-4 mx-auto mb2">
 
             <Header />
+            <Experience />
             <Snapsnip />
             <GreenArrowLabs />
             <Knowledge />

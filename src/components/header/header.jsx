@@ -19,8 +19,8 @@ class Header extends Component {
       <ul className="list-reset">
         <li>I'm Edwin,</li>
         <li>startup tech founder</li>
-        <li>turned product manager</li>
-        <li>without a workplace to call home.</li>
+        <li>turned product manager.</li>
+        {/* <li>without a workplace to call home.</li> */}
       </ul>
 
       <div className="clearfix">
