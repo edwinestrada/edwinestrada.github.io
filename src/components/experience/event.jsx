@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import moreIcon from '../../assets/more.svg';
 
 class Event extends Component {
   render() {
@@ -8,8 +7,9 @@ class Event extends Component {
       title,
       subtitle,
       buttons,
-      bubbleText,
+      bubbleParagraphs,
       bubbleGiphyId,
+      bubbleImage,
     } = this.props;
 
     return (
@@ -20,9 +20,8 @@ class Event extends Component {
           {title && <p className="bold mb0">{title}</p>}
           {subtitle && <><p>{subtitle}</p></>}
           {buttons && buttons.map(button => button)}
-          {(bubbleText || bubbleGiphyId) && <blockquote class="bubble">
-            <p className="mb0">{bubbleText}</p>
-            {/* <p>My A-HA moment...</p> */}
+          {(bubbleParagraphs || bubbleGiphyId) && <blockquote class="bubble">
+            {bubbleParagraphs && bubbleParagraphs.map((p,i) => <p className={i === 0 ? "mb0" : "mb0 mt1"}>{p}</p>)}
             {bubbleGiphyId && <div style={{ paddingBottom: "56%", position:"relative" }}>
               <iframe
                 title="bubble-media"
@@ -34,6 +33,7 @@ class Event extends Component {
                 className="giphy-embed mt1"
               />
             </div>}
+            {bubbleImage && <img alt="bubble-pic" className="mt1" src={bubbleImage} /> }
           </blockquote>}
         </div>
       </li>
