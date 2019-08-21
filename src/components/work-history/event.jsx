@@ -23,8 +23,8 @@ class Event extends Component {
           </p>}
           {subtitle && <><p>{subtitle}</p></>}
           {buttons && buttons.map(button => button)}
-          {(bubbleParagraphs || bubbleGiphyId) && <blockquote class="bubble">
-            {bubbleParagraphs && bubbleParagraphs.map((p,i) => <p className={i === 0 ? "mb0" : "mb0 mt1"}>{p}</p>)}
+          {(bubbleParagraphs || bubbleGiphyId) && <blockquote className="bubble">
+            {bubbleParagraphs && bubbleParagraphs.map((p,i) => <p key={i} className={i === 0 ? "mb0" : "mb0 mt1"}>{p}</p>)}
             {bubbleGiphyId && <div style={{ paddingBottom: "56%", position:"relative" }}>
               <iframe
                 title="bubble-media"
