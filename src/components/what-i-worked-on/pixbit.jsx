@@ -22,6 +22,10 @@ const History = () => (
         <li>Trainer</li>
         <li>Sales</li>
         <li>R&amp;D</li>
+        <li>Mentor</li>
+        <li>Trainer</li>
+        <li>Established software best practices</li>
+        <li>Daily code reviewer</li>
       </ul>
     </div>
 
