@@ -40,7 +40,9 @@
 
 @media (min-width: 64em) {
   .hide-on-desktop {
-    display: none !important; } }
+    display: none !important; }
+  .bubble {
+    width: 75%; } }
 
 @media (max-width: 64em) {
   .hide-on-mobile {
@@ -214,3 +216,13 @@ blockquote p {
     /* reduce the damage in FF3.0 */
     display: block;
     width: 0; }
+
+/***************************************************************************************************
+ *                                          SCROLL TO TOP                                          *
+ ***************************************************************************************************/
+#scroll-to-top {
+  z-index: 999;
+  cursor: pointer; }
+  #scroll-to-top:hover {
+    background-color: white;
+    color: black; }

@@ -34,8 +34,8 @@ const History = () => (
 
     <p className="bold mt3 mb1">Responsibilities during pre-build phases</p>
     <ul className="list-reset">
-      <li>Personally responsible for picking problems worth solving based on impact and scope size/cost factors</li>
       <li>Selected as the main contact for key account stakeholders that drove 40-60% of the product's roadmap</li>
+      <li>Personally responsible for picking problems worth solving based on impact and scope size/cost factors</li>
       <li>Collaborated with stakeholders, experts, founder, design, and engineering in planning Epics/PRDs</li>
       <li>Developed ideas/features based on vision, XFN input, user feedback, and understanding space</li>
       <li>Led aligning solutions with competing goals and obtaining validation from subject experts</li>

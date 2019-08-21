@@ -54,6 +54,9 @@ $dale-lari-purple: #724A9E;
   .hide-on-desktop {
     display: none !important;
   }
+  .bubble {
+    width: 75%;
+  }
 }
 @media (max-width: 64em) {
   .hide-on-mobile {
@@ -231,7 +234,7 @@ $timeline_left: 0.75em;
  *                                             BUBBLE                                              *
  ***************************************************************************************************/
 
- blockquote {
+blockquote {
   margin: 1em 0;
 }
 
@@ -269,3 +272,19 @@ blockquote p {
   }
 
 }
+
+/***************************************************************************************************
+ *                                          SCROLL TO TOP                                          *
+ ***************************************************************************************************/
+ #scroll-to-top {
+  z-index: 999;
+  cursor: pointer;
+  // position: fixed;
+  // bottom: 24px;
+  // right: 0;
+
+  &:hover {
+    background-color: white;
+    color: black;
+  }
+ }

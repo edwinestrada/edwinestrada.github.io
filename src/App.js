@@ -9,6 +9,7 @@ import BeforeTech from './components/before-tech/before-tech';
 import Beliefs from './components/beliefs/beliefs';
 
 import './App.css';
+import ScrollButton from './components/scroll-button';
 
 class App extends Component {
   render() {
@@ -44,6 +45,8 @@ class App extends Component {
 
           </div>
         </div>
+
+        <ScrollButton />
       </div>
     );
   }
