@@ -5,6 +5,7 @@ class Event extends Component {
     const {
       date,
       title,
+      link,
       subtitle,
       buttons,
       bubbleParagraphs,
@@ -17,7 +18,9 @@ class Event extends Component {
         <label className="icon"></label>
         <div className="timeline-body">
           <button className="btn caps bold disabled">{date}</button>
-          {title && <p className="bold mb0">{title}</p>}
+          {title && <p className="bold mb0">
+            {link ? <a href={link}>{title}</a> : title}
+          </p>}
           {subtitle && <><p>{subtitle}</p></>}
           {buttons && buttons.map(button => button)}
           {(bubbleParagraphs || bubbleGiphyId) && <blockquote class="bubble">

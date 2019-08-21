@@ -13,6 +13,7 @@ const events = [
     date="2017 - 2019"
     title="Product Manager"
     subtitle="Green Arrow Labs"
+    link="#green-arrow-labs"
     bubbleParagraphs={[
       "Got the chance to work with the world's largest footwear & apparel brands to create a platform where they can manage quality, chemical, and physical testing among their suppliers and laboratories.",
       "It was great to be able to go do product design sprints and interviews on-site with the brand teams all over the US and the lab teams in China. ✈️",
@@ -31,6 +32,7 @@ const events = [
     date="2012 - 2017"
     title="Chief Product Officer"
     subtitle="Pixbit"
+    link="#pixbit"
     bubbleParagraphs={[
       "My co-founder and I combined his design (pixel) skills with my tech (bit) skills to create our startup company called 'Pixbit'. 🤓",
       "We would start by sharing stories of business owners through creating their brands and then powering their businesses with the products we built on top of the Wordpress framework.",
@@ -72,7 +74,9 @@ class Experience extends Component {
     // const {} = this.props;
 
     return (<>
-      <p className="section-title m0 mt4">How I got to today</p>
+      <p id="work-history" className="section-title m0 mt4">How I got to today</p>
+      <p className="bold">my work history</p>
+      <hr/>
       <Timeline events={events} />
     </>);
   }

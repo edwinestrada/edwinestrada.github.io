@@ -1,10 +1,9 @@
 import React, { Component } from 'react';
 import Header from './components/header/header';
-import Experience from './components/experience/experience';
-import Snapsnip from './components/snapsnip/snapsnip';
-import GreenArrowLabs from './components/green-arrow-labs/green-arrow-labs';
-import Knowledge from './components/knowledge/knowledge';
-import Pixbit from './components/pixbit/pixbit';
+import Experience from './components/work-history/work-history';
+import GreenArrowLabs from './components/what-i-worked-on/green-arrow-labs';
+import Knowledge from './components/what-i-have-learned/knowledge';
+import Pixbit from './components/what-i-worked-on/pixbit';
 import GivingBack from './components/giving-back/giving-back';
 import BeforeTech from './components/before-tech/before-tech';
 import Beliefs from './components/beliefs/beliefs';
@@ -18,14 +17,25 @@ class App extends Component {
         <div id="bad-hombre" className="m4">
           <div className="max-width-4 mx-auto mb2">
 
+            {/* Intro and Navbar */}
             <Header />
+
+            {/* Work history */}
             <Experience />
-            <Snapsnip />
+
+            {/* What I have worked on */}
             <GreenArrowLabs />
-            <Knowledge />
             <Pixbit />
+
+            {/* What I have learned */}
+            <Knowledge />
+
+            {/* How I used my powers for good */}
             <GivingBack />
+
             <BeforeTech />
+
+            {/* What I believe */}
             <Beliefs />
 
             <div className="mb3">
