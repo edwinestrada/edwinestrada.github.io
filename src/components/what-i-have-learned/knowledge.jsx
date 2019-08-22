@@ -81,6 +81,7 @@ const Knowledge = () => (
         <li>Photoshop</li>
         <li>Indesign</li>
         <li>Sketch</li>
+        <li>Figma</li>
         <li>Gimp</li>
       </ul>
     </div>
