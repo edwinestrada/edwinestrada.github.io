@@ -16,7 +16,7 @@ class Header extends Component {
     return (<>
       <p id="nombre-grande" className="m0 mt4">Hola</p>
 
-      <ul className="list-reset">
+      <ul className="list-reset no-bullets">
         <li>I'm Edwin,</li>
         <li>startup tech founder</li>
         <li>turned product manager.</li>

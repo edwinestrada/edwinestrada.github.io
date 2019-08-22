@@ -46,7 +46,7 @@ const History = () => (
       </div>
 
       <div className="hide-on-desktop">
-        <ul className="list-reset mt2 button-list">
+        <ul className="list-reset mt2 no-bullets">
           <li>
             <a href="https://www.salontoday.com/375406/the-virtual-consultation-tool" target="_blank" rel="noopener noreferrer">
               <button className="btn caps bold">News</button>

@@ -234,5 +234,5 @@ blockquote p {
     line-height: 1; }
   .list-reset {
     list-style: inherit; }
-  .button-list {
+  .no-bullets {
     list-style: none; } }

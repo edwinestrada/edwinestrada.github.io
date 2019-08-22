@@ -16,7 +16,7 @@ const NavBar = () => (<>
     </div>
   </div>
   <div className="hide-on-desktop">
-    <ul className="list-reset mt2 button-list">
+    <ul className="list-reset mt2 no-bullets">
       <li><a href="#work-history"><button className="btn caps bold mb1">Work History</button></a></li>
       <li><a href="#green-arrow-labs"><button className="btn caps bold mb1">What I worked on</button></a></li>
       <li><a href="#knowledge"><button className="btn caps bold mb1">Skills</button></a></li>

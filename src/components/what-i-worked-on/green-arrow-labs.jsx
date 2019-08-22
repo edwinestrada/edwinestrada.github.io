@@ -25,7 +25,7 @@ const History = () => (
       </div>
 
       <div className="hide-on-desktop">
-        <ul className="list-reset mt2 button-list">
+        <ul className="list-reset mt2 no-bullets">
           <li>
             <a href="https://www.greenarrowlabs.com" target="_blank" rel="noopener noreferrer">
               <button className="btn caps bold mt1">Company Site</button>
