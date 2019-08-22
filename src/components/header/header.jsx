@@ -24,7 +24,14 @@ class Header extends Component {
       </ul>
 
       <div className="clearfix">
-        <img id="edwins-face" onMouseEnter={this.handleEnterFace} onMouseLeave={this.handleExitFace} alt="face" className="col sm-col-2 md-col-3 lg-col-1" src={this.getFace()} />
+        <img
+          id="edwins-face"
+          onMouseEnter={this.handleEnterFace}
+          onMouseLeave={this.handleExitFace}
+          alt="face"
+          className="col col-4 md-col-3 lg-col-1"
+          src={this.getFace()}
+        />
       </div>
 
       <NavBar />
