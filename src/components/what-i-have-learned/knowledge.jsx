@@ -18,7 +18,7 @@ const Knowledge = () => (
         <li>Communication with designers</li>
         <li>Communication with engineers</li>
         <li>Product &amp; strategic insights</li>
-        <li>Objective Prioritization</li>
+        <li>Objective prioritization</li>
       </ul>
     </div>
 
