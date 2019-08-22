@@ -7,49 +7,51 @@ const History = () => (
     <p className="bold">while at Green Arrow Labs</p>
     <hr/>
 
-    <img alt='link logos' src={linkLogo} className="mt2" />
-    <p className="bold mt2 mb1">Link Supply Chain Management Tool</p>
-    <ul className="list-reset">
-      <li>Provides a common platform for collaboration between the world's largest footwear/apparel brands, their suppliers, and testing laboratories as they manufacture, test, and import along the entire supply chain.</li>
-    </ul>
-
-    <a href="https://www.greenarrowlabs.com" target="_blank" rel="noopener noreferrer">
-      <button className="btn caps bold mt1">Company Site</button>
-    </a>
-    <a href="https://www.greenarrowlabs.com/Link-Services-Software" target="_blank" rel="noopener noreferrer">
-      <button className="btn caps bold mt1 ml1">Product Site</button>
-    </a>
+    <div className="clearfix">
+      <p className="bold mt3 mb1">Product</p>
+      <img alt='logo' src={linkLogo} className="mt2" />
+      <p className="mt2 mb1 italic">Supply Chain and Laboratory Testing Management Tool</p>
+      <ul className="list-reset">
+        <li>Provides a common platform for collaboration between the world's largest footwear/apparel brands, their suppliers, and testing laboratories as they manufacture, test, and import along the entire supply chain.</li>
+      </ul>
+      <a href="https://www.greenarrowlabs.com" target="_blank" rel="noopener noreferrer">
+        <button className="btn caps bold mt1">Company Site</button>
+      </a>
+      <a href="https://www.greenarrowlabs.com/Link-Services-Software" target="_blank" rel="noopener noreferrer">
+        <button className="btn caps bold mt1 ml1">Product Site</button>
+      </a>
+    </div>
 
     <p className="bold mt3 mb1">Role</p>
     <ul className="list-reset">
-      <li>5% Supporting sales and customer success</li>
-      <li>20% Design sessions with UX team</li>
       <li>20% Product strategy and planning</li>
-      <li>5% Individually contributing code</li>
+      <li>20% Design sessions with UX team</li>
       <li>20% Working with stakeholders</li>
       <li>20% Working with engineering</li>
+      <li>5% Individually contributing</li>
       <li>5% Mentoring/Training</li>
       <li>5% Metrics/Analytics</li>
+      <li>5% Sales/Support</li>
     </ul>
 
     <p className="bold mt3 mb1">Responsibilities during pre-build phases</p>
     <ul className="list-reset">
-      <li>Selected as the main contact for key account stakeholders that drove 40-60% of the product's roadmap</li>
+      <li>Selected as the primary contact for key account stakeholders that drove 40-60% of the product's roadmap</li>
       <li>Personally responsible for picking problems worth solving based on impact and scope size/cost factors</li>
       <li>Collaborated with stakeholders, experts, founder, design, and engineering in planning Epics/PRDs</li>
       <li>Developed ideas/features based on vision, XFN input, user feedback, and understanding space</li>
       <li>Led aligning solutions with competing goals and obtaining validation from subject experts</li>
-      <li>Continually identified new users/stakeholders/markets encounterd during interviewing</li>
+      <li>Continually identified new users/stakeholders/markets encountered during interviewing</li>
       <li>Developed big bet (opportunities with acceptable risks) and quick win features/ideas</li>
+      <li>Reported directly to and focused on understanding the vision of founder/CEO</li>
       <li>Personally responsible for picking features to solve those use case problems</li>
-      <li>Reported directly to and specialized in understanding vision of founder/CEO</li>
       <li>Led the gathering of real, detailed use cases to stress test prototypes with</li>
       <li>Analyzed metrics in legacy apps to inform lessons learned in new features</li>
       <li>Specialized in Risk analysis of features and ideas on the roadmap</li>
       <li>Researched the market and competition within the same vertical</li>
       <li>Exercised asking clarifying questions to understand user needs</li>
       <li>Provided on-site visit support to sales to close key accounts</li>
-      <li>Acted as facilitator for 3 to 5-day product design sprints</li>
+      <li>Acted as the facilitator for 3 to 5-day product design sprints</li>
       <li>Personally visited Chinese labs to gather requirements</li>
       <li>Responsible for doing Quantitative customer research</li>
       <li>Responsible for doing Qualitative customer research</li>
@@ -61,40 +63,39 @@ const History = () => (
 
     <p className="bold mt3 mb1">Responsibilities during execution phases</p>
     <ul className="list-reset">
-      <li>Because of technical background, able to help team convert Epic into Jira tasks alongside a lead engineer</li>
-      <li>Prepare sprint submission presentations and deliverables</li>
-        <li>Prioritizing between launch-blocking bugs and must-have features</li>
-      <li>On-boarding, teaching users of key accounts while gathering feedback</li>
-      <li>Answering questions customers have about various parts of the product lifecycle</li>
+      <li>Helped balance the trade-offs to make everyone ~90% happy while meeting company goals/OKR</li>
       <li>Analyzing pain points at different times in the customer's lifecycle using the product</li>
-      <li>Balancing the trade-offs to make everyone 90% happy while accomplishing the company goals/OKR</li>
-      <li>Individual contribution</li>
-      <li>Establish, clarify, and verify delivery of features to key account stakeholders</li>
-      <li>Engaged in standups to monitor progress and help if needed with micro-priorities</li>
-        <li>Helped Project Manager remove blockers for dev and design teams</li>
+      <li>Participated in standups to monitor progress and help if needed with micro-priorities</li>
+      <li>Established, clarified, and verified delivery of features to key account stakeholders</li>
+      <li>Answering questions customers have about various parts of the product lifecycle</li>
+      <li>Collaborated in preparing agile sprint submission presentations and deliverables</li>
+      <li>Led prioritizing between launch-blocking bugs and must-have features</li>
+      <li>Helped Project Manager remove blockers for dev and design teams</li>
+      <li>Individually contributed on straightforward, quick wins or bug fixes</li>
+      <li>Collaborated with team leads in converting Epics into Jira tasks</li>
     </ul>
 
     <p className="bold mt3 mb1">Responsibilities during post-launch phases</p>
     <ul className="list-reset">
-      <li>launch planning</li>
-      <li>Go on-site to teach how to use and gather feedback/tweaks phase 2....</li>
-      <li>Collaborating with BusDev, Marketing, Sales, and Legal</li>
+      <li>Collaborated with Customer Success, Marketing, Sales, and Legal to close sponsored features</li>
+      <li>Personally gathered feedback from key account stakeholders and captured next phase needs</li>
+      <li>Led workshop sessions that on-boarded users of key accounts on new features</li>
+      <li>Collaborated on launch planning with key account organization heads</li>
     </ul>
 
-    <p className="bold mt3 mb1">Among many of the feats during this project were:</p>
+    <p className="bold mt3 mb1">Feats accomplished during this project</p>
     <ul className="list-reset">
-      <li>Migrated U.S. and overseas dev team to do work and releases in Docker</li>
-      <li>Launched from inception to operational and generating profit</li>
-      <li>Architected graph database to track of relationships between brands, suppliers, &amp; labs</li>
-      <li>Migrated dev team from Angular 1.x to React</li>
-      <li>Closely coordinate finance and resources throughout project</li>
-      <li>Architect the micro-services powering the platform</li>
-      <li>Optimized/Build and maintain the CI/CD pipeline</li>
-      <li>Furthered the company's brand identity</li>
-      <li>Led the creation of the product's brand identity and messaging</li>
-      <li>Furthered/Optimized Google Material Design</li>
+      <li>Launched the product from inception to operational across brands, suppliers, and labs and generating profit</li>
+      <li>Harmonized the UX of the products without a full-time UI resource by leaning on Google Material Design</li>
+      <li>Optimized feature releases through CI/CD pipeline powered by Redhat's OpenShift Kubernetes platform</li>
+      <li>Reduced build costs by establishing free-tier level 3rd party solutions I used during my startup days</li>
+      <li>Architected graph database solution to track relationships between brands, suppliers, &amp; labs</li>
       <li>Prepared and presented workshops to colleagues to develop their design awareness</li>
-          <li>Prepared Canned on-boarding presentations</li>
+      <li>Migrated U.S. and overseas dev team to do work and releases using Docker</li>
+      <li>Architected the micro-services architecture powering the platform</li>
+      <li>Led the creation of the product's brand identity and messaging</li>
+      <li>Migrated frontend dev team from Angular 1.x to React</li>
+      <li>Modernized the company's brand identity</li>
     </ul>
 
     <p className="bold mt3 mb1">Team members that I got to work with day-to-day</p>

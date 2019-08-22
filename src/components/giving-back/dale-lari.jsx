@@ -6,9 +6,6 @@ const DaleLari = () => (
     <ul className="list-reset">
       <li>Dale Lari - A Global Soccer Project</li>
     </ul>
-    <a href="http://www.dalelari.com" target="_blank" rel="noopener noreferrer">
-      <button className="btn caps bold">See Website</button>
-    </a>
     <a href="https://www.kickstarter.com/projects/1301122510/dale-lari-a-global-soccer-project" target="_blank" rel="noopener noreferrer">
       <button className="btn caps bold ml1">See Kickstarter</button>
     </a>
