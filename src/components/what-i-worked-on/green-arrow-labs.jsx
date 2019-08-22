@@ -62,7 +62,7 @@ const History = () => (
       <li>Continually identified new users/stakeholders/markets encountered during interviewing</li>
       <li>Developed big bet (opportunities with acceptable risks) and quick win features/ideas</li>
       <li>Reported directly to and focused on understanding the vision of founder/CEO</li>
-      <li>Personally responsible for picking features to solve those use case problems</li>
+      <li>Personally responsible for picking features to solve real use case problems</li>
       <li>Led the gathering of real, detailed use cases to stress test prototypes with</li>
       <li>Analyzed metrics in legacy apps to inform lessons learned in new features</li>
       <li>Specialized in Risk analysis of features and ideas on the roadmap</li>
