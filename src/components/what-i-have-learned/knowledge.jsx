@@ -2,7 +2,25 @@ import React from 'react';
 
 const Knowledge = () => (
   <div id="knowledge">
-    <p className="section-title m0 mt4">What I have learned to do</p>
+    <p className="section-title m0 mt4">What I have learned</p>
+
+    <div className="clearfix py3">
+      <p className="bold">Product Management</p><hr/>
+      <ul className="list-reset">
+        <li>Understanding the WHY and the WHAT to do while</li>
+        <li>Learning to let design and engineering do the HOW</li>
+        <li>Passion for products and how they are experienced</li>
+        <li>Amplifying the signal versus noise from feedback</li>
+        <li>Analytical skills to make data-driven decisions</li>
+        <li>Estimating impact and effort of features</li>
+        <li>Communication with stakeholders</li>
+        <li>Communication with leadership</li>
+        <li>Communication with designers</li>
+        <li>Communication with engineers</li>
+        <li>Product &amp; strategic insights</li>
+        <li>Objective Prioritization</li>
+      </ul>
+    </div>
 
     <div className="clearfix py3">
       <p className="bold">Project Management</p><hr/>
@@ -102,7 +120,7 @@ const Knowledge = () => (
       <p className="bold">Frontend Frameworks I use regularly</p><hr/>
       <ul className="list-reset">
         <li>Material Design</li>
-        <li style={{textDecoration: 'line-through'}}>Gross Bootstrap</li>
+        <li style={{ textDecoration: 'line-through' }}>Gross Bootstrap</li>
         <li>Foundation</li>
         <li>D3</li>
       </ul>
@@ -125,9 +143,9 @@ const Knowledge = () => (
       <p className="bold">Build stuff I use</p><hr/>
       <ul className="list-reset">
         <li>Create React App</li>
-        <li style={{textDecoration: 'line-through'}}>Webpack</li>
-        <li style={{textDecoration: 'line-through'}}>Grunt</li>
-        <li style={{textDecoration: 'line-through'}}>Gulp</li>
+        <li style={{ textDecoration: 'line-through' }}>Webpack</li>
+        <li style={{ textDecoration: 'line-through' }}>Grunt</li>
+        <li style={{ textDecoration: 'line-through' }}>Gulp</li>
       </ul>
     </div>
 

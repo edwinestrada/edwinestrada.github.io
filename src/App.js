@@ -1,13 +1,15 @@
 import React, { Component } from 'react';
-import Header from './components/header';
-import GreenArrowLabs from './components/green-arrow-labs/green-arrow-labs';
-import Knowledge from './components/knowledge/knowledge';
-import Pixbit from './components/pixbit/pixbit';
+import Header from './components/header/header';
+import Experience from './components/work-history/work-history';
+import GreenArrowLabs from './components/what-i-worked-on/green-arrow-labs';
+import Knowledge from './components/what-i-have-learned/knowledge';
+import Pixbit from './components/what-i-worked-on/pixbit';
 import GivingBack from './components/giving-back/giving-back';
 import BeforeTech from './components/before-tech/before-tech';
 import Beliefs from './components/beliefs/beliefs';
 
 import './App.css';
+import ScrollButton from './components/scroll-button';
 
 class App extends Component {
   render() {
@@ -16,21 +18,25 @@ class App extends Component {
         <div id="bad-hombre" className="m4">
           <div className="max-width-4 mx-auto mb2">
 
+            {/* Intro and Navbar */}
             <Header />
 
-            <div className="clearfix mt4">
-              <a href="#green-arrow-labs"><button className="btn caps bold mb1">Current Job</button></a>
-              <a href="#knowledge"><button className="btn caps bold ml1 mb1">Skills</button></a>
-              <a href="#pixbit"><button className="btn caps bold ml1 mb1">Prev Startup Job</button></a>
-              <a href="#giving-back"><button className="btn caps bold ml1 mb1">Giving Back</button></a>
-              <a href="#before-tech"><button className="btn caps bold ml1 mb1">Before Tech</button></a>
-            </div>
+            {/* Work history */}
+            <Experience />
 
+            {/* What I have worked on */}
             <GreenArrowLabs />
-            <Knowledge />
             <Pixbit />
+
+            {/* What I have learned */}
+            <Knowledge />
+
+            {/* How I used my powers for good */}
             <GivingBack />
+
             <BeforeTech />
+
+            {/* What I believe */}
             <Beliefs />
 
             <div className="mb3">
@@ -39,6 +45,8 @@ class App extends Component {
 
           </div>
         </div>
+
+        <ScrollButton />
       </div>
     );
   }

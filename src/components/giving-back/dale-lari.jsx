@@ -6,15 +6,30 @@ const DaleLari = () => (
     <ul className="list-reset">
       <li>Dale Lari - A Global Soccer Project</li>
     </ul>
-    <a href="http://www.dalelari.com" target="_blank" rel="noopener noreferrer">
-      <button className="btn caps bold">See Website</button>
-    </a>
-    <a href="https://www.kickstarter.com/projects/1301122510/dale-lari-a-global-soccer-project" target="_blank" rel="noopener noreferrer">
-      <button className="btn caps bold ml1">See Kickstarter</button>
-    </a>
-    <a href="https://vimeo.com/pixbit/dalelaridocumentary" target="_blank" rel="noopener noreferrer">
-      <button className="btn caps bold ml1">Watch Video</button>
-    </a>
+
+    <div className="hide-on-mobile">
+      <a href="https://www.kickstarter.com/projects/1301122510/dale-lari-a-global-soccer-project" target="_blank" rel="noopener noreferrer">
+        <button className="btn caps bold">See Kickstarter</button>
+      </a>
+      <a href="https://vimeo.com/pixbit/dalelaridocumentary" target="_blank" rel="noopener noreferrer">
+        <button className="btn caps bold ml1">Watch Video</button>
+      </a>
+    </div>
+
+    <div className="hide-on-desktop">
+      <ul className="list-reset mt2 button-list">
+        <li>
+          <a href="https://www.kickstarter.com/projects/1301122510/dale-lari-a-global-soccer-project" target="_blank" rel="noopener noreferrer">
+            <button className="btn caps bold">See Kickstarter</button>
+          </a>
+        </li>
+        <li>
+          <a href="https://vimeo.com/pixbit/dalelaridocumentary" target="_blank" rel="noopener noreferrer">
+            <button className="btn caps bold">Watch Video</button>
+          </a>
+        </li>
+      </ul>
+    </div>
   </div>
 );
 
