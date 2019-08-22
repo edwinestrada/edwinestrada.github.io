@@ -82,7 +82,7 @@ const History = () => (
     <p className="bold mt3 mb1">Responsibilities during execution phases</p>
     <ul className="list-reset">
       <li>Helped balance the trade-offs to make everyone ~90% happy while meeting company goals/OKR</li>
-      <li>Analyzing pain points at different times in the customer's lifecycle using the product</li>
+      <li>Analyzed pain points at different times in the customer's lifecycle using the product</li>
       <li>Participated in standups to monitor progress and help if needed with micro-priorities</li>
       <li>Established, clarified, and verified delivery of features to key account stakeholders</li>
       <li>Answering questions customers have about various parts of the product lifecycle</li>
