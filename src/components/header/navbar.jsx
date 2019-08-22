@@ -12,7 +12,7 @@ const NavBar = () => (<>
       <a href="#before-tech"><button className="btn caps bold ml1 mb1">Before Tech</button></a>
     </div>
     <div className="clearfix mt1">
-      <a href="#resume"><button className="btn caps bold mb1">Download Resume</button></a>
+      <a href="https://drive.google.com/file/d/1S5nYUgaVyZdISimKNNrtOvGBvrpzFsmi/view?usp=sharing" target="_blank" rel="noopener noreferrer"><button className="btn caps bold mb1">Download Resume</button></a>
     </div>
   </div>
   <div className="hide-on-desktop">
