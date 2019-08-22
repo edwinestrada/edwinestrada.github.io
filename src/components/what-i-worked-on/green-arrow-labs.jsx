@@ -14,12 +14,30 @@ const History = () => (
       <ul className="list-reset">
         <li>Provides a common platform for collaboration between the world's largest footwear/apparel brands, their suppliers, and testing laboratories as they manufacture, test, and import along the entire supply chain.</li>
       </ul>
-      <a href="https://www.greenarrowlabs.com" target="_blank" rel="noopener noreferrer">
-        <button className="btn caps bold mt1">Company Site</button>
-      </a>
-      <a href="https://www.greenarrowlabs.com/Link-Services-Software" target="_blank" rel="noopener noreferrer">
-        <button className="btn caps bold mt1 ml1">Product Site</button>
-      </a>
+
+      <div className="hide-on-mobile">
+        <a href="https://www.greenarrowlabs.com" target="_blank" rel="noopener noreferrer">
+          <button className="btn caps bold mt1">Company Site</button>
+        </a>
+        <a href="https://www.greenarrowlabs.com/Link-Services-Software" target="_blank" rel="noopener noreferrer">
+          <button className="btn caps bold mt1 ml1">Product Site</button>
+        </a>
+      </div>
+
+      <div className="hide-on-desktop">
+        <ul className="list-reset mt2 button-list">
+          <li>
+            <a href="https://www.greenarrowlabs.com" target="_blank" rel="noopener noreferrer">
+              <button className="btn caps bold mt1">Company Site</button>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.greenarrowlabs.com/Link-Services-Software" target="_blank" rel="noopener noreferrer">
+              <button className="btn caps bold mt1">Product Site</button>
+            </a>
+          </li>
+        </ul>
+      </div>
     </div>
 
     <p className="bold mt3 mb1">Role</p>

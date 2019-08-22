@@ -38,16 +38,6 @@
   /* Gecko Browsers */
   color: white; }
 
-@media (min-width: 64em) {
-  .hide-on-desktop {
-    display: none !important; }
-  .bubble {
-    width: 75%; } }
-
-@media (max-width: 64em) {
-  .hide-on-mobile {
-    display: none !important; } }
-
 #nombre-grande, .section-title {
   font-family: -apple-system, BlinkMacSystemFont, sans-serif;
   font-weight: 800;
@@ -226,3 +216,23 @@ blockquote p {
   #scroll-to-top:hover {
     background-color: white;
     color: black; }
+
+/***************************************************************************************************
+ *                                             MOBILE                                              *
+ ***************************************************************************************************/
+@media (min-width: 64em) {
+  .hide-on-desktop {
+    display: none !important; }
+  .bubble {
+    width: 75%; } }
+
+@media (max-width: 64em) {
+  .hide-on-mobile {
+    display: none !important; }
+  .section-title {
+    font-size: 30px;
+    line-height: 1; }
+  .list-reset {
+    list-style: inherit; }
+  .button-list {
+    list-style: none; } }

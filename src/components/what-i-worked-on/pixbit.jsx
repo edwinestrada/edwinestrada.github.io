@@ -29,18 +29,46 @@ const History = () => (
       <ul className="list-reset">
         <li>Customer and salon team platform that allows guests to take photos of themselves, upload inspirations, and then have stylists assess their snaps to ensure accurate pricing and properly booked appointments.</li>
       </ul>
-      <a href="https://www.salontoday.com/375406/the-virtual-consultation-tool" target="_blank" rel="noopener noreferrer">
-        <button className="btn caps bold">News</button>
-      </a>
-      <a href="http://www.thinkpixbit.com/portfolio/snapsnip-product-creation" target="_blank" rel="noopener noreferrer">
-        <button className="btn caps bold ml1">Portfolio Site</button>
-      </a>
-      <a href="http://snapsnipapp.com" target="_blank" rel="noopener noreferrer">
-        <button className="btn caps bold ml1">Product Site</button>
-      </a>
-      <a href="https://s3.amazonaws.com/thinkpixbit/public/snapsnip-ecosystem.png" target="_blank" rel="noopener noreferrer">
-        <button className="btn caps bold ml1">Tech Stack</button>
-      </a>
+
+      <div className="hide-on-mobile">
+        <a href="https://www.salontoday.com/375406/the-virtual-consultation-tool" target="_blank" rel="noopener noreferrer">
+          <button className="btn caps bold">News</button>
+        </a>
+        <a href="http://www.thinkpixbit.com/portfolio/snapsnip-product-creation" target="_blank" rel="noopener noreferrer">
+          <button className="btn caps bold ml1">Portfolio Site</button>
+        </a>
+        <a href="http://snapsnipapp.com" target="_blank" rel="noopener noreferrer">
+          <button className="btn caps bold ml1">Product Site</button>
+        </a>
+        <a href="https://s3.amazonaws.com/thinkpixbit/public/snapsnip-ecosystem.png" target="_blank" rel="noopener noreferrer">
+          <button className="btn caps bold ml1">Tech Stack</button>
+        </a>
+      </div>
+
+      <div className="hide-on-desktop">
+        <ul className="list-reset mt2 button-list">
+          <li>
+            <a href="https://www.salontoday.com/375406/the-virtual-consultation-tool" target="_blank" rel="noopener noreferrer">
+              <button className="btn caps bold">News</button>
+            </a>
+          </li>
+          <li>
+            <a href="http://www.thinkpixbit.com/portfolio/snapsnip-product-creation" target="_blank" rel="noopener noreferrer">
+              <button className="btn caps bold">Portfolio Site</button>
+            </a>
+          </li>
+          <li>
+            <a href="http://snapsnipapp.com" target="_blank" rel="noopener noreferrer">
+              <button className="btn caps bold">Product Site</button>
+            </a>
+          </li>
+          <li>
+            <a href="https://s3.amazonaws.com/thinkpixbit/public/snapsnip-ecosystem.png" target="_blank" rel="noopener noreferrer">
+              <button className="btn caps bold">Tech Stack</button>
+            </a>
+          </li>
+        </ul>
+      </div>
     </div>
 
     <p className="bold mt3 mb1">Feats accomplished during this project</p>
