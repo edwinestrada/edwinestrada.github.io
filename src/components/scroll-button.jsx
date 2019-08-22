@@ -23,7 +23,7 @@ class ScrollButton extends Component {
         id="scroll-to-top"
         className="btn caps bold fixed bottom-0 right-0 mb2"
         style={this.state.showButton ? null : { 'display': 'none' }}
-        onClick={this.handleScrollToTop}>{this.state.scrollPosition}
+        onClick={this.handleScrollToTop}>Top
       </button>
     </>);
   }
