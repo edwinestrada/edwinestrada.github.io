@@ -73,11 +73,11 @@ const History = () => (
 
     <p className="bold mt3 mb1">Feats accomplished during this project</p>
     <ul className="list-reset mt2">
-      <li>Signed up 300+ users consisting of receptionists, stylists, and salon owners</li>
-      <li>Obtained 3,200+ customer selfies taken by people wanting haircuts</li>
-      <li>Funneled 1,200+ salon guests through consultation tool</li>
-      <li>Powered 1,300+ consultations made through the tool</li>
-      <li>Captured 1,800+ inspiration pictures uploaded</li>
+      <li>Signed up 600+ users consisting of receptionists, stylists, and salon owners</li>
+      <li>Obtained 18,000+ customer selfies taken by people wanting haircuts</li>
+      <li>Funneled 6,000+ salon guests through consultation tool</li>
+      {/* <li>Powered 1,300+ consultations made through the tool</li> */}
+      <li>Captured 10,000+ inspiration pictures uploaded</li>
       <li>Launched micro-service API to power clients</li>
       <li>Launched Notification Center iPhone app</li>
       <li>Launched Guest Wordpress Plugin</li>
