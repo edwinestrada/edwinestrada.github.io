@@ -2,7 +2,7 @@ import React from 'react';
 
 const Knowledge = () => (
   <div id="knowledge">
-    <p className="section-title m0 mt4">What I have learned</p>
+    <p className="section-title m0 mt4">What I know how to do</p>
 
     <div className="clearfix py3">
       <p className="bold">Product Management</p><hr/>
