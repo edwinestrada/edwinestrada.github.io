@@ -3,10 +3,7 @@ import React from 'react';
 const Project = () => (
   <div className="clearfix py3">
     <p className="bold">Non-profit Project - Azul</p><hr/>
-    <p>Taught technology-focused courses and managed initiatives for our communities.</p>
-    <a href="http://react.thinkpixbit.com" target="_blank" rel="noopener noreferrer">
-      <button className="btn caps bold">See Course</button>
-    </a>
+    <p>Taught technology-focused courses and managed initiatives for under-represented communities.</p>
 
     <ul className="list-reset mt2">
       <li>React 101 and Rapid Prototyping Course</li>

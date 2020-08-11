@@ -34,9 +34,6 @@ const History = () => (
         <a href="https://www.salontoday.com/375406/the-virtual-consultation-tool" target="_blank" rel="noopener noreferrer">
           <button className="btn caps bold">News</button>
         </a>
-        <a href="http://www.thinkpixbit.com/portfolio/snapsnip-product-creation" target="_blank" rel="noopener noreferrer">
-          <button className="btn caps bold ml1">Portfolio Site</button>
-        </a>
         <a href="http://snapsnipapp.com" target="_blank" rel="noopener noreferrer">
           <button className="btn caps bold ml1">Product Site</button>
         </a>
@@ -50,11 +47,6 @@ const History = () => (
           <li>
             <a href="https://www.salontoday.com/375406/the-virtual-consultation-tool" target="_blank" rel="noopener noreferrer">
               <button className="btn caps bold">News</button>
-            </a>
-          </li>
-          <li>
-            <a href="http://www.thinkpixbit.com/portfolio/snapsnip-product-creation" target="_blank" rel="noopener noreferrer">
-              <button className="btn caps bold">Portfolio Site</button>
             </a>
           </li>
           <li>
@@ -108,25 +100,19 @@ const History = () => (
     </div>
 
     {/* Other products */}
-    <p className="bold mt3 mb1">Other products that had short lifespans</p>
+    <p className="bold mt3 mb1">Other products that had shorter lifespans</p>
     <div className="clearfix">
       <img alt='logo' src={ciscoLogo} className="mt2" />
       <p className="mt2 mb1 italic">Customer Acquisition Tool</p>
       <ul className="list-reset">
         <li>Interactive customer assessment tool to help Cisco capture more information funnel security leads, present them with tier-specific data visualizations, send results to correct sales team, and leave with final Youtube video.</li>
       </ul>
-      <a href="http://www.thinkpixbit.com/portfolio/cisco-security-solutions" target="_blank" rel="noopener noreferrer">
-        <button className="btn caps bold">Portfolio Site</button>
-      </a>
     </div>
 
     <div className="clearfix mt4">
       <img alt='logo' src={bridgeLogo} className="mt2" />
       <p className="mt2 mb1 italic">News reader and publisher</p>
       <p>Helps brands tell their story. User-generated content has the ability to engage, inspire, and drive new communities around brands. We listen, curate, and then highlight the voice of your brand champions for your events and campaigns.</p>
-      <a href="http://www.thinkpixbit.com/portfolio/bridge-visual-system" target="_blank" rel="noopener noreferrer">
-        <button className="btn caps bold">Portfolio Site</button>
-      </a>
     </div>
 
   </div>
