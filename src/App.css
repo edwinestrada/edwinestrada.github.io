@@ -204,6 +204,8 @@ blockquote p {
     /* reduce the damage in FF3.0 */
     display: block;
     width: 0; }
+  .bubble .bubble-pic {
+    width: 100%; }
 
 /***************************************************************************************************
  *                                          SCROLL TO TOP                                          *

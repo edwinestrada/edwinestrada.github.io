@@ -36,7 +36,7 @@ class Event extends Component {
                 className="giphy-embed mt1"
               />
             </div>}
-            {bubbleImage && <img alt="bubble-pic" className="mt1" src={bubbleImage} /> }
+            {bubbleImage && <img alt="bubble-pic" className="mt1 bubble-pic" src={bubbleImage} /> }
           </blockquote>}
         </div>
       </li>

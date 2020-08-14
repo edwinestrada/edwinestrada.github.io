@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import Timeline from './timeline';
 import Event from './event';
+import YouCanDoIt from '../../assets/you-can-do-it.gif';
+import WowClap from '../../assets/wow-clap.gif';
 import GodDog from '../../assets/i-am-a-god-or-a-dog.png';
 
 const events = [
@@ -12,9 +14,13 @@ const events = [
   />,
   <Event
     key="1"
-    date="2020 - May 2021"
+    date="2020 - Today"
     title="Back to School"
-    subtitle="I will be back in school getting my Bachelor's degree in Computer Engineering from NCSU!"
+    subtitle="I am back in school getting my Bachelor's degree in Computer Engineering from NCSU."
+    bubbleParagraphs={[
+      "That also means I am actively interviewing for jobs that I can start as soon as I graduate!",
+    ]}
+    bubbleImage={YouCanDoIt}
   />,
   <Event
     key="2"
@@ -67,7 +73,7 @@ const events = [
       "Somehow I convinced my boss to let me create a search-by-skills staff directory web app and iPad app with a Wordpress CMS.",
       "This project was the first time I tapped into the potential of using Wordpress as a powerful, out-of-the-box CMS platform that I could tweak to do my bidding...",
     ]}
-    bubbleGiphyId="xT77XWum9yH7zNkFW0"
+    bubbleImage={WowClap}
   />,
   <Event
     key="7"
