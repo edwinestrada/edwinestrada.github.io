@@ -12,9 +12,9 @@ const events = [
   />,
   <Event
     key="1"
-    date="Fall 2020 - May 2021"
+    date="2020 - May 2021"
     title="Back to School"
-    subtitle="I will be getting my Bachelor's degree in Computer Engineering from NCSU!"
+    subtitle="I will be back in school getting my Bachelor's degree in Computer Engineering from NCSU!"
   />,
   <Event
     key="2"

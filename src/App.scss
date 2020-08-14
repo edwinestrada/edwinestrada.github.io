@@ -1,19 +1,19 @@
 @mixin proxima { font-family: proxima-nova, Arial, sans-serif; }
 @mixin sf { font-family: -apple-system, BlinkMacSystemFont, sans-serif; }
 
-$nimble-green: #2ADF97;
+$nimble-green: #95FED1;
 $pendo-pink: #ec2059;
 $nicaraguan-blue: #0067C6;
 $dale-lari-purple: #724A9E;
 
 #bad-hombre {
   ::selection {
-    background: $nicaraguan-blue; /* WebKit/Blink Browsers */
-    color: white;
+    background: $nimble-green; /* WebKit/Blink Browsers */
+    // color: white;
   }
   ::-moz-selection {
-    background: $nicaraguan-blue; /* Gecko Browsers */
-    color: white;
+    background: $nimble-green; /* Gecko Browsers */
+    // color: white;
   }
 }
 

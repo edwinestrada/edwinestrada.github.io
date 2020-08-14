@@ -2,8 +2,9 @@ import React, { Component } from 'react';
 // import edwinFace from '../../assets/edwin-face.png';
 // import manFace from '../../assets/man-face.png';
 // import edwinInBar from '../../assets/edwin-in-a-bar.jpg';
+// import edwinNoBG from '../../assets/edwin-no-background.png';
+// import edwinRedBG from '../../assets/edwin-profile-pic-red-bg.png';
 import edwinGreenBG from '../../assets/edwin-profile-pic-green-bg.png';
-// import edwinRedBG from '../../assets/edwin-profile-pic-green-bg.png';
 import NavBar from './navbar';
 
 class Header extends Component {
@@ -14,6 +15,7 @@ class Header extends Component {
   handleEnterFace = () => this.setState({ faceHover: true });
   handleExitFace = () => this.setState({ faceHover: false });
   // getFace = () => this.state.faceHover ? edwinFace : manFace;
+  // getFace = () => this.state.faceHover ? edwinRedBG : edwinGreenBG;
   getFace = () => edwinGreenBG;
 
   render() {

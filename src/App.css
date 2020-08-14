@@ -1,12 +1,10 @@
 #bad-hombre ::selection {
-  background: #0067C6;
-  /* WebKit/Blink Browsers */
-  color: white; }
+  background: #95FED1;
+  /* WebKit/Blink Browsers */ }
 
 #bad-hombre ::-moz-selection {
-  background: #0067C6;
-  /* Gecko Browsers */
-  color: white; }
+  background: #95FED1;
+  /* Gecko Browsers */ }
 
 #dale-lari-section ::selection {
   background: #724A9E;
@@ -29,12 +27,12 @@
   color: white; }
 
 #nimble-letter ::selection {
-  background: #2ADF97;
+  background: #95FED1;
   /* WebKit/Blink Browsers */
   color: white; }
 
 #nimble-letter ::-moz-selection {
-  background: #2ADF97;
+  background: #95FED1;
   /* Gecko Browsers */
   color: white; }
 
@@ -51,7 +49,7 @@
   color: #ec2059; }
 
 .nimble-green {
-  color: #2ADF97; }
+  color: #95FED1; }
 
 p, li, button,
 .h1, .h2, .btn {
