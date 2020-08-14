@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
-import edwinFace from '../../assets/edwin-face.png';
-import manFace from '../../assets/man-face.png';
+// import edwinFace from '../../assets/edwin-face.png';
+// import manFace from '../../assets/man-face.png';
+// import edwinInBar from '../../assets/edwin-in-a-bar.jpg';
+import edwinGreenBG from '../../assets/edwin-profile-pic-green-bg.png';
+// import edwinRedBG from '../../assets/edwin-profile-pic-green-bg.png';
 import NavBar from './navbar';
 
 class Header extends Component {
@@ -10,7 +13,8 @@ class Header extends Component {
 
   handleEnterFace = () => this.setState({ faceHover: true });
   handleExitFace = () => this.setState({ faceHover: false });
-  getFace = () => this.state.faceHover ? edwinFace : manFace;
+  // getFace = () => this.state.faceHover ? edwinFace : manFace;
+  getFace = () => edwinGreenBG;
 
   render() {
     return (<>
@@ -29,7 +33,7 @@ class Header extends Component {
           onMouseEnter={this.handleEnterFace}
           onMouseLeave={this.handleExitFace}
           alt="face"
-          className="col col-4 md-col-3 lg-col-1"
+          className="col col-4 md-col-3 lg-col-2"
           src={this.getFace()}
         />
       </div>

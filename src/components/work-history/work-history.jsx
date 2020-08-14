@@ -6,12 +6,18 @@ import GodDog from '../../assets/i-am-a-god-or-a-dog.png';
 const events = [
   <Event
     key="0"
-    date="Today"
+    date="May 2021"
     title="Product Manager"
     subtitle="In search for company to call home"
   />,
   <Event
     key="1"
+    date="Fall 2020 - May 2021"
+    title="Back to School"
+    subtitle="I will be getting my Bachelor's degree in Computer Engineering from NCSU!"
+  />,
+  <Event
+    key="2"
     date="2017 - 2019"
     title="Product Manager"
     subtitle="Green Arrow Labs"
@@ -22,7 +28,7 @@ const events = [
     ]}
   />,
   <Event
-    key="2"
+    key="3"
     date="2017"
     title="Full-stack Developer"
     subtitle="Lithios"
@@ -32,9 +38,9 @@ const events = [
     ]}
   />,
   <Event
-    key="3"
+    key="4"
     date="2012 - 2017"
-    title="Chief Product Officer"
+    title="Chief Technology Officer"
     subtitle="Pixbit"
     link="#pixbit"
     bubbleParagraphs={[
@@ -44,7 +50,7 @@ const events = [
     ]}
   />,
   <Event
-    key="4"
+    key="5"
     date="2012 - 2013"
     title="Wordpress Developer"
     subtitle="North Carolina State University"
@@ -53,7 +59,7 @@ const events = [
     ]}
   />,
   <Event
-    key="5"
+    key="6"
     date="2008 - 2012"
     title="Library Technical Assistant II"
     subtitle="North Carolina State University"
@@ -64,7 +70,7 @@ const events = [
     bubbleGiphyId="xT77XWum9yH7zNkFW0"
   />,
   <Event
-    key="6"
+    key="7"
     date="2005 - 2008"
     title="Student Club Webmaster"
     subtitle="Society of Hispanic Engineers"
