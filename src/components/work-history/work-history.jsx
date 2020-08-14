@@ -10,7 +10,7 @@ const events = [
     key="0"
     date="May 2021"
     title="Product Manager"
-    subtitle="In search for company to call home"
+    subtitle="I will be in search for company to call home"
   />,
   <Event
     key="1"
@@ -93,7 +93,7 @@ class Experience extends Component {
 
     return (<>
       <p id="work-history" className="section-title m0 mt4">How I got to today</p>
-      <p className="bold">my work history</p>
+      <p className="bold">my tech industry timeline</p>
       <hr/>
       <Timeline events={events} />
     </>);

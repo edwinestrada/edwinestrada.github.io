@@ -1,26 +1,28 @@
 {
   "files": {
-    "main.css": "/static/css/main.8ba78473.chunk.css",
-    "main.js": "/static/js/main.3b4c57d6.chunk.js",
-    "main.js.map": "/static/js/main.3b4c57d6.chunk.js.map",
+    "main.css": "/static/css/main.7bdf1421.chunk.css",
+    "main.js": "/static/js/main.930a8cb6.chunk.js",
+    "main.js.map": "/static/js/main.930a8cb6.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.26c42324.js",
     "runtime-main.js.map": "/static/js/runtime-main.26c42324.js.map",
-    "static/js/2.30d7e6dd.chunk.js": "/static/js/2.30d7e6dd.chunk.js",
-    "static/js/2.30d7e6dd.chunk.js.map": "/static/js/2.30d7e6dd.chunk.js.map",
+    "static/js/2.cfe28eb9.chunk.js": "/static/js/2.cfe28eb9.chunk.js",
+    "static/js/2.cfe28eb9.chunk.js.map": "/static/js/2.cfe28eb9.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.5a9429e19226e062a19c8757247be3e9.js": "/precache-manifest.5a9429e19226e062a19c8757247be3e9.js",
+    "precache-manifest.6234a2e9d7b45448e7942c79f4542746.js": "/precache-manifest.6234a2e9d7b45448e7942c79f4542746.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.8ba78473.chunk.css.map": "/static/css/main.8ba78473.chunk.css.map",
-    "static/js/2.30d7e6dd.chunk.js.LICENSE.txt": "/static/js/2.30d7e6dd.chunk.js.LICENSE.txt",
+    "static/css/main.7bdf1421.chunk.css.map": "/static/css/main.7bdf1421.chunk.css.map",
+    "static/js/2.cfe28eb9.chunk.js.LICENSE.txt": "/static/js/2.cfe28eb9.chunk.js.LICENSE.txt",
     "static/media/bridge-logo.png": "/static/media/bridge-logo.ebaec0ca.png",
     "static/media/edwin-profile-pic-green-bg.png": "/static/media/edwin-profile-pic-green-bg.eaa30df2.png",
     "static/media/i-am-a-god-or-a-dog.png": "/static/media/i-am-a-god-or-a-dog.f596c2bf.png",
-    "static/media/pixbit-logo.png": "/static/media/pixbit-logo.6810f2c5.png"
+    "static/media/pixbit-logo.png": "/static/media/pixbit-logo.6810f2c5.png",
+    "static/media/wow-clap.gif": "/static/media/wow-clap.7476f33d.gif",
+    "static/media/you-can-do-it.gif": "/static/media/you-can-do-it.09f32c97.gif"
   },
   "entrypoints": [
     "static/js/runtime-main.26c42324.js",
-    "static/js/2.30d7e6dd.chunk.js",
-    "static/css/main.8ba78473.chunk.css",
-    "static/js/main.3b4c57d6.chunk.js"
+    "static/js/2.cfe28eb9.chunk.js",
+    "static/css/main.7bdf1421.chunk.css",
+    "static/js/main.930a8cb6.chunk.js"
   ]
 }
