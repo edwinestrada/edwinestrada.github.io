@@ -9,18 +9,18 @@ const events = [
   <Event
     key="0"
     date="2020"
-    title="Product Manager"
-    subtitle="I will be in search for company to call home"
+    title="Technical Product Manager"
+    subtitle="Looking for a company to call home!"
   />,
   <Event
     key="2"
     date="2017 - 2019"
-    title="Product Manager"
+    title="Technical Product Manager"
     subtitle="Green Arrow Labs"
     link="#green-arrow-labs"
     bubbleParagraphs={[
-      "Got the chance to work with the world's largest footwear & apparel brands to create a platform where they can manage quality, chemical, and physical testing among their suppliers and laboratories.",
-      "It was great to be able to do product design sprints and interviews on-site with the brand teams all over the US and the lab teams in China. ✈️",
+      "Engineered webapps and API's for the world's largest footwear & apparel brands so they could control quality, chemical, and physical testing among their suppliers and laboratories.",
+      "Managed overseas team based out of India while attending to customers in China, Germany, and across the US. ✈️",
     ]}
   />,
   <Event
@@ -36,7 +36,7 @@ const events = [
   <Event
     key="4"
     date="2012 - 2017"
-    title="Chief Technology Officer"
+    title="Chief Technology Officer + Full-stack Developer"
     subtitle="Pixbit"
     link="#pixbit"
     bubbleParagraphs={[
@@ -71,7 +71,7 @@ const events = [
     title="Student Club Webmaster"
     subtitle="Society of Hispanic Engineers"
     bubbleParagraphs={[
-      "I was barely learning, but my static HTML/CSS websites made me feel like I was on top of the world.",
+      "I was barely learning, but my static HTML/CSS and Flash websites made me feel like I was on top of the world.",
     ]}
     bubbleImage={GodDog}
   />,
