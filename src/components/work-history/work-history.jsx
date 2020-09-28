@@ -8,19 +8,9 @@ import GodDog from '../../assets/i-am-a-god-or-a-dog.png';
 const events = [
   <Event
     key="0"
-    date="May 2021"
+    date="2020"
     title="Product Manager"
     subtitle="I will be in search for company to call home"
-  />,
-  <Event
-    key="1"
-    date="2020 - Today"
-    title="Back to School"
-    subtitle="I am back in school getting my Bachelor's degree in Computer Engineering from NCSU."
-    bubbleParagraphs={[
-      "That also means I am actively interviewing for jobs that I can start as soon as I graduate!",
-    ]}
-    bubbleImage={YouCanDoIt}
   />,
   <Event
     key="2"
