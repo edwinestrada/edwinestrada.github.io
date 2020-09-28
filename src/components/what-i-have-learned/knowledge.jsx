@@ -121,8 +121,8 @@ const Knowledge = () => (
       <p className="bold">Frontend Frameworks I use regularly</p><hr/>
       <ul className="list-reset">
         <li>Material Design</li>
-        <li style={{ textDecoration: 'line-through' }}>Gross Bootstrap</li>
         <li>Foundation</li>
+        <li>Bootstrap</li>
         <li>D3</li>
       </ul>
     </div>
@@ -144,9 +144,9 @@ const Knowledge = () => (
       <p className="bold">Build stuff I use</p><hr/>
       <ul className="list-reset">
         <li>Create React App</li>
-        <li style={{ textDecoration: 'line-through' }}>Webpack</li>
-        <li style={{ textDecoration: 'line-through' }}>Grunt</li>
-        <li style={{ textDecoration: 'line-through' }}>Gulp</li>
+        <li>Webpack</li>
+        <li>Grunt</li>
+        <li>Gulp</li>
       </ul>
     </div>
 
@@ -172,6 +172,7 @@ const Knowledge = () => (
         <li>Docker (this site is deployed in a container)</li>
         <li>Digital experiences in autonomous cars</li>
         <li>Raspberry Pi's + Arduino</li>
+        <li>Algorithmic Day Trading</li>
         <li>WebVR with A-frame</li>
         <li>Graph Databases</li>
         <li>Virtual Reality</li>
