@@ -9,13 +9,13 @@ const events = [
   <Event
     key="0"
     date="2020"
-    title="Technical Product Manager"
+    title="Product Manager"
     subtitle="Looking for a company to call home!"
   />,
   <Event
     key="2"
     date="2017 - 2019"
-    title="Technical Product Manager"
+    title="Senior Technical Product Manager"
     subtitle="Green Arrow Labs"
     link="#green-arrow-labs"
     bubbleParagraphs={[
@@ -26,7 +26,7 @@ const events = [
   <Event
     key="3"
     date="2017"
-    title="Full-stack Developer"
+    title="Full-stack Web Developer"
     subtitle="Lithios"
     bubbleParagraphs={[
       "It was time to transition to a more stable job now that I had a family to look after.",
@@ -36,7 +36,7 @@ const events = [
   <Event
     key="4"
     date="2012 - 2017"
-    title="Chief Technology Officer + Full-stack Developer"
+    title="Co-founder, Product Manager"
     subtitle="Pixbit"
     link="#pixbit"
     bubbleParagraphs={[
